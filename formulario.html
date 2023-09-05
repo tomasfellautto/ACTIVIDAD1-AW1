@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(8, 8, 8); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 20px ;" 
+        >Formulario</h1>
+    </header>
+    <main>
+        <form action="formulario.html" method="post">
+            <fieldset>
+                <legend> Información Personal </legend>
+                    Nombre:
+                    <input type="text" name="firstname"><br>
+                    Soy freenlace: 
+                    <input id="Soy freenlace" type="checkbox" ><br>
+                    <label for="lenguajes">Elige un lenguaje</label>
+                    <select name="lenguaje" id="Leng">
+                        <option>Ingles</option>
+                        <option>Español</option>
+                        <option>Portugues</option>    
+                    </select><br><br>
+                    <label for="text">Agregar comentario:</label>
+                    <textarea name="text" id="text" cols="20" rows="4"></textarea> <br><br>
+                    <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
